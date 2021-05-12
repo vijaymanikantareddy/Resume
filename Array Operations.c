@@ -27,7 +27,7 @@ int main()
 				arr[i+1]=arr[i];
 			arr[pos]=val;
 			n++;
-			printf("\nThe elements of ana array after inserting new value: \n");
+			printf("\nThe elements of an array after inserting new value: \n");
 			for(i=0;i<n;i++)
 				printf("\t%d",arr[i]);	
 			break;
@@ -39,7 +39,7 @@ int main()
 			for(i=pos-1;i<n-1;i++)
 				arr[i]=arr[i+1];
 			n--;
-			printf("\nThe elements of ana array after deleting new value: \n");
+			printf("\nThe elements of an array after deleting a value: \n");
 			for(i=0;i<n;i++)
 				printf("\t%d",arr[i]);	
 			break;
